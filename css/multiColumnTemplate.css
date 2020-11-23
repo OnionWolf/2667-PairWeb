@@ -86,8 +86,8 @@
 	margin-right: auto;
 	margin-top: 0px;
 	font-family: "Source Sans Pro";
-	font-weight: normal;
-	color: #FFFFFF;
+	font-weight: medium;
+	color: #000000;
 	letter-spacing: 1px;
 	margin-left: auto;
 	text-align: center;
@@ -95,7 +95,7 @@
 	transition: all 0.3s linear;
 }
 .secondary_header ul li:hover {
-	color: #717070;
+	color: #003352;
 	cursor: pointer;
 }
 .left_article {
