@@ -6,5 +6,8 @@ This is a simple way to keep track of our files and also of our changes.
 
 I will show you how to 'commit' changes to the master, and how to download the files as a whole without needing to copy/paste everytime.
 
+! [image of Gitrepo]
+(https://github.com/OnionWolf/2667-PairWeb/blob/master/images/logo.png)
+
 Cheers,
 Logan
