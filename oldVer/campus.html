@@ -6,7 +6,6 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Simple Theme</title>
 <link href="css/multiColumnTemplate.css" rel="stylesheet" type="text/css">
-<link href="css/bootstrap-4.4.1.css" rel="stylesheet" type="text/css">
 <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
 <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
 <!--[if lt IE 9]>
@@ -18,18 +17,27 @@
 <div class="container">
   <header>
     <div class="primary_header">
-      <h1 class="noDisplay"> MRU Student Resource Guide</h1>
+      <h1 class="title"> MRU Student Resource Guide</h1>
     </div>
+    <nav class="secondary_header" id="menu">
+      <ul>
+		  <li><a href="index.html">Overview</a></li>
+		  <li><a href="services.html">Mental Health Services</a></li>
+		  <li><a href="crisis.html">Crisis Resources</a></li>
+		  <li><a href="selfmanage.html">Self Management</a></li>
+		  <li><a href="campus.html">Campus Community</a></li>
+		  <li><a href="support.html">Support</a></li>
+      </ul>
+    </nav>
   </header>
   <section>
     <h2 class="noDisplay">Main Content</h2>
     <article class="left_article">
-      <h3>overview</h3>
+      <h3>Campus Community Engagement</h3>
       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
     </article>
-    <aside class="right_article"><img src="images/mru_2c_logo_cmyk.png" alt="" class="placeholder"/> 
-	</aside>
+    <aside class="right_article"><img src="images/logo.png" alt="" width="400" height="200" class="placeholder"/> </aside>
   </section>
   <div class="row">
     <div class="columns">
@@ -60,46 +68,16 @@
     <div class="column_half right_half">
       <h2 class="column_title">RIGHT COLUMN</h2>
     </div>
-</div>
-<script src="js/jquery-3.4.1.min.js"></script>
-<script src="js/popper.min.js"></script>
-<script src="js/bootstrap-4.4.1.js"></script>
-
-<nav class="navbar fixed-top navbar-expand-lg navbar-dark" style="background-color: #003352">
-	<a class="navbar-brand" href="index.html" ><img src="images/chevronWhite.png" width="25" alt="Mount Royal University"/> Student Resources for Mental Health</a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"> 
-	  <span class="navbar-toggler-icon"></span> 
-  	</button>
-	
-  	<div class="collapse navbar-collapse" id="navbarSupportedContent">
-      <ul class="navbar-nav mr-auto">
-      	<li class="nav-item active"> 
-		  <a class="nav-link" href="index.html">Overview<span class="sr-only">(current)</span></a> 
-	 	</li>
-      	<li class="nav-item"> 
-		  <a class="nav-link" href="crisis.html">Crisis Resources</a> 
-	 	</li>
-      	<li class="nav-item dropdown"> 
-			<a class="nav-link dropdown-toggle" href="services.html" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> Health Services </a>
-			<div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink"> 
-				<a class="dropdown-item" href="#">Physician</a> 
-				<a class="dropdown-item" href="#">Health Nurse</a>
-         		<div class="dropdown-divider"></div>
-          		<a class="dropdown-item" href="#">Book Appointment</a> 
-			</div>
-      	</li>
-		<li class="nav-item"> 
-			<a class="nav-link" href="selfmanage.html">Self Management</a>
-     	<li class="nav-item"> 
-  	    <a class="nav-link disabled" href="#">Disabled</a> </li></li>
-		
-    </ul>
-   <!-- <form class="form-inline my-2 my-lg-0">
-      <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-      <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-    </form> ## search only needed if we index our content --> 
   </div>
-</nav>
-	</div>
-	</body>
+  <div class="social">
+    <p class="social_icon"><img src="images/bkg_06.jpg" width="100" alt="" class="thumbnail"/></p>
+    <p class="social_icon"><img src="images/bkg_06.jpg" width="100" alt="" class="thumbnail"/></p>
+    <p class="social_icon"><img src="images/bkg_06.jpg" width="100" alt="" class="thumbnail"/></p>
+    <p class="social_icon"><img src="images/bkg_06.jpg" width="100" alt="" class="thumbnail"/></p>
+  </div>
+  <footer class="secondary_header footer">
+    <div class="copyright">&copy;2020 - <strong>SIMPLE Theme</strong></div>
+  </footer>
+</div>
+</body>
 </html>
