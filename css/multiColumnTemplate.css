@@ -33,7 +33,7 @@
 .columns {
 	width: 25%;
 	float: left;
-	font-family: "Source Sans Pro";
+	font-family: "open-sans";
 	color: #A5A5A5;
 	line-height: 24px;
 	padding-top: 10px;
@@ -85,7 +85,7 @@
 	float: left;
 	margin-right: auto;
 	margin-top: 0px;
-	font-family: "Source Sans Pro";
+	font-family: "open-sans";
 	font-weight: medium;
 	color: #000000;
 	letter-spacing: 1px;
@@ -102,7 +102,7 @@
 	background-color: #FFFFFF;
 	width: 60%;
 	float: left;
-	font-family: "Source Sans Pro";
+	font-family: "open-sans";
 	color: #343434;
 	padding-bottom: 15px;
 }
@@ -112,6 +112,7 @@
 .container .left_article h3 {
 	padding-left: 5%;
 	padding-right: 5%;
+	padding-top: 5%;
 	margin-top: 5%;
 	color: #717070;
 	font-weight: bold;
@@ -142,7 +143,7 @@
 	padding-left: 0px;
 }
 .right_article ul li {
-	font-family: "Source Sans Pro";
+	font-family: "open-sans";
 	list-style: none;
 	text-align: center;
 	background-color: #B3B3B3;
@@ -169,7 +170,7 @@
 .title {
 	font-weight: bold;
 	font-style: normal;
-	font-family: "Source Sans Pro";
+	font-family: "open-sans";
 	text-align: center;
 	color: #FFFFFF;
 	letter-spacing: 2px;
@@ -191,13 +192,13 @@
 }
 .container .column_half.left_half h2 {
 	color: #FFFFFF;
-	font-family: "Source Sans Pro";
+	font-family: "open-sans";
 	text-align: center;
 }
 .right_half {
 	background-color: #01B2D1;
 	color: #FFFFFF;
-	font-family: "Source Sans Pro";
+	font-family: "open-sans";
 	text-align: center;
 	font-weight: bold;
 }
@@ -213,7 +214,7 @@
 	font-weight: lighter;
 	letter-spacing: 2px;
 	border-top-width: 2px;
-	font-family: "Source Sans Pro";
+	font-family: "open-sans";
 }
 body {
 	margin-top: 0px;
@@ -299,6 +300,7 @@ body {
 	margin-bottom: 0px;
 }
 .container .left_article h3 {
+	padding-top: 25px;
 	margin-top: 30px;
 }
 .social .social_icon img {
