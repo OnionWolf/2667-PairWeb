@@ -31,20 +31,22 @@
 	margin-top: 0px;
 }
 .columns {
-	width: 25%;
-	float: left;
-	font-family: "open-sans";
-	color: #A5A5A5;
-	line-height: 24px;
-	padding-top: 10px;
-	padding-bottom: 10px;
-	text-align: justify;
-	margin-top: 15px;
-	margin-bottom: 15px;
-	padding-left: 0px;
-	padding-right: 0px;
-	margin-left: 0px;
-	margin-right: 0px;
+    width: 25%;
+    float: left;
+    font-family: 'open-sans';
+    color: #A5A5A5;
+    line-height: 24px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: justify;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    padding-left: 0px;
+    padding-right: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    font-style: normal;
+    font-weight: 300;
 }
 .row .columns p {
 	padding-left: 10%;
