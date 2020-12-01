@@ -129,7 +129,7 @@
     line-height: 24px;
     margin-top: 30px;
     margin-bottom: 15px;
-    color: #a7a9ac;
+    color: #000000;
 }
 .right_article {
 	width: 40%;
@@ -188,7 +188,6 @@
 	padding-top: 45px;
 	/* [disabled]padding-left: 19px;
 */
-	padding-bottom: 30px;
 	height: 100%;
 }
 .left_half {
@@ -265,7 +264,7 @@ body {
 }
 .placeholder {
 	width: 100%;
-	margin-top: 22PX;
+	margin-top: 20PX;
 	margin-right: 0px;
 	margin-bottom: 22PX;
 	margin-left: 0px;
