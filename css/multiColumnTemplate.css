@@ -112,13 +112,15 @@
 	display: none;
 }
 .container .left_article h3 {
-	padding-left: 5%;
-	padding-right: 5%;
-	padding-top: 5%;
-	margin-top: 5%;
-	color: #717070;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 5%;
+    margin-top: 5%;
+    color: #003352;
+    border-bottom: 1px solid #003352;
 	font-weight: bold;
-	text-transform: uppercase;
+    text-transform: uppercase;
+	
 }
 .container .left_article p {
 	padding-left: 5%;
