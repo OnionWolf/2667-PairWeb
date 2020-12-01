@@ -34,7 +34,7 @@
     width: 25%;
     float: left;
     font-family: 'open-sans';
-    color: #A5A5A5;
+    color: #a7a9ac;
     line-height: 24px;
     padding-top: 10px;
     padding-bottom: 10px;
@@ -123,13 +123,13 @@
 	
 }
 .container .left_article p {
-	padding-left: 5%;
-	padding-right: 5%;
-	text-align: justify;
-	line-height: 24px;
-	margin-top: 30px;
-	margin-bottom: 15px;
-	color: #B3B3B3;
+    padding-left: 5%;
+    padding-right: 5%;
+    text-align: justify;
+    line-height: 24px;
+    margin-top: 30px;
+    margin-bottom: 15px;
+    color: #a7a9ac;
 }
 .right_article {
 	width: 40%;
