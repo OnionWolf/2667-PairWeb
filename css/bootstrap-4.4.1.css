@@ -367,15 +367,16 @@ h1, .h1 {
 }
 
 h2, .h2 {
-  font-size: 2rem;
-}
-
-h3, .h3 {
   font-size: 2.75rem;
 }
 
+h3, .h3 {
+  font-size: 1.75rem;
+}
+
 h4, .h4 {
-  font-size: 1.5rem;
+    font-size: 1.5rem;
+    margin-left: 5px;
 }
 
 h5, .h5 {
@@ -5262,7 +5263,10 @@ a.badge-dark:focus, a.badge-dark.focus {
 .alert {
   position: relative;
   padding: 0.75rem 1.25rem;
-  margin-bottom: 1rem;
+  margin-bottom: 0.5rem;
+  margin-left: 0.5rem;  
+  margin-right: 0.5rem;
+  margin-top:  0.5rem;
   border: 1px solid transparent;
   border-radius: 0.25rem;
 }
