@@ -125,10 +125,9 @@
     padding-left: 5%;
     padding-right: 5%;
     padding-top: 5%;
-    margin-top: 5%;
+    margin-top: 3%;
     color: #003352;
-    border-bottom: 1px solid #003352;
-	font-weight: bold;
+    font-weight: bold;
     text-transform: capitalize;
 }
 .container .left_article p {
